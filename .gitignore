@@ -6,6 +6,35 @@
 # Logs
 *.log
 logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+vendor/
+
+# Build output
+build/
+dist/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+
+# Caches
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.eslintcache
+
+# Test / coverage
+coverage/
+.nyc_output/
 
 # OS
 .DS_Store
@@ -18,6 +47,7 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 
-# Stack-specific entries (dependency directories, build output, caches) belong
-# here once a framework is chosen. None are listed yet, deliberately — guessing
-# at them would imply a stack decision that has not been made.
+# These are deliberately defensive, not a stack decision: a dependency or build
+# directory committed by accident is expensive to remove from history, and an
+# unused ignore line costs nothing. Framework-specific additions belong here
+# once a stack is actually chosen.
