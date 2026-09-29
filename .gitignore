@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+*.swp
+.vscode/*
+!.vscode/extensions.json
+
+# Stack-specific entries (dependency directories, build output, caches) belong
+# here once a framework is chosen. None are listed yet, deliberately — guessing
+# at them would imply a stack decision that has not been made.
